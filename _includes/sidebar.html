@@ -1,6 +1,6 @@
 <aside class="sidebar">
   <div class="widget widget-tags">
-    <h3 class="widget-title">Tag Cloud</h3>
+    <h3 class="widget-title">標籤雲</h3>
     {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{%
     endcapture %} {% assign tag_words = site_tags | split:',' | sort %}
     <ul class="tag-list list-reset">
@@ -14,7 +14,7 @@
   
   {% if page.id %}
   <div class="widget widget-recent">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">近期的文章</h3>
     {% for post in site.posts limit:4 %}
     <div class="recent-posts">
       {% if post.image %}
