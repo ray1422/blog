@@ -1,6 +1,6 @@
 $columns: 12;
-/* $container-base-width: 1200px; */
-$container-base-width: calc(100vw - 150px);
+$container-base-width: 1200px;
+$container-wide-width: calc(100vw - 150px);
 $container-offset: $base-spacing-unit;
 
 $mobile:  576px;
@@ -68,7 +68,9 @@ $mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
 
   // TABLET
   @media(min-width: $tablet) {
-
+    .container {
+        max-width: $container-wide-width;
+    } 
     @for $i from 0 through $columns {
       .col-t-#{$i} {
         width: percentage( $i / $columns );
