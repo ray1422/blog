@@ -197,20 +197,35 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: $black;
+    /* background-color: $black; */
     box-shadow: 0 9px 18px 0 rgba(0, 0, 0, .25);
     &:before {
       content: "";
       display: table;
       padding-top: 50%;
+
+    }
+    .article-image-first-image {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: $black;
+        position: absolute;
+        top: 0;
+        height:100%;
+        left: 0;
+        width: 100%;
+        filter: brightness(.35);
+
     }
   }
   .article-content-first {
+    z-index: 1;
     padding: 20px;
     color: $text;
     .article-tag {
       .tag {
-        font-size: 12px;
+        font-size: 16px;
       }
     }
     .article-date {
@@ -232,7 +247,7 @@
     .article-excerpt {
       /* max-width: 450px; */
       margin-bottom: 30px;
-      font-size: 14px;
+      font-size: 18px;
       line-height: 23px;
     }
     .button {

@@ -8,7 +8,13 @@ layout: default
 		{% if forloop.index <= 1 %}
 		<div class="col col-12">
 			<article class="article-first">
-				<div class="article-image-first" style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.image}})">
+                 <div class="article-image-first">
+                    {% if post.image %}
+                    <div class="article-image-first-image" style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.image}})">
+                    {% else %}
+			    	<div class="article-image-first-image" style="background-image: url(https://source.unsplash.com/collection/1532230/)">
+                    {% endif %}
+                    </div>
 					<div class="article-content-first">
 						<div class="article-tag">
 						{% if post.tags.size >= 1 %}
