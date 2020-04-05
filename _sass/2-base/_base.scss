@@ -9,6 +9,9 @@ $base-line-height: 28px;
 *, *::after, *::before {
   box-sizing: border-box;
 }
+* {
+  overflow-wrap: break-word;
+}
 
 body {
   font-family: $base-font-family;
