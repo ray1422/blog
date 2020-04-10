@@ -7,6 +7,8 @@ tags:
 - Java
 - 資訊
 - Android
+- TensorFlow
+- 機器學習
 modified_time: '2019-10-03T08:21:40.805-07:00'
 blogger_id: tag:blogger.com,1999:blog-3652771586318239972.post-1998659512424254993
 blogger_orig_url: https://ray1422.blogspot.com/2019/06/tensorflow-android.html

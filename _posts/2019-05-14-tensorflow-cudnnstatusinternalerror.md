@@ -5,6 +5,8 @@ date: '2019-05-14T08:45:00.002-07:00'
 author: Ray
 tags:
 - 資訊
+- TensorFlow
+- 機器學習
 modified_time: '2019-10-03T08:21:40.844-07:00'
 blogger_id: tag:blogger.com,1999:blog-3652771586318239972.post-7962034384516717223
 blogger_orig_url: https://ray1422.blogspot.com/2019/05/tensorflow-cudnnstatusinternalerror.html
