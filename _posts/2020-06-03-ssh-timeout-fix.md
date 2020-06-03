@@ -7,7 +7,8 @@
  - linux
  - ssh
  modified_time: '2020-06-03T17:57:18+08:00'
- ---
+---
+
 更改ssh配置文件 `/etc/ssh/sshd_config`
 ```config
 ClientAliveInterval 60
