@@ -4,7 +4,7 @@
 title: Ray的異世界
 description:
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://ray-fish.me/blog" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ray-fish.me" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #-------------------------------
